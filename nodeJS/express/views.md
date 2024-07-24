@@ -28,6 +28,7 @@ Next, we need to let our app know that we intend to use `EJS` as a template engi
 In your `app.js` file, set the following application properties:
 
 ```javascript
+const path = require("path");
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 ```
